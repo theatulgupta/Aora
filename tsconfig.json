@@ -1,17 +1,11 @@
 {
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
+    "jsx": "react",
     "strict": true,
     "paths": {
-      "@/*": [
-        "./*"
-      ]
+      "@/*": ["./*"]
     }
   },
-  "include": [
-    "**/*.ts",
-    "**/*.tsx",
-    ".expo/types/**/*.ts",
-    "expo-env.d.ts"
-  ]
+  "include": ["**/*.ts", "**/*.tsx", ".expo/types/**/*.ts", "expo-env.d.ts", "app/(tabs)/_layout.jsx", "app/(tabs)/create.jsx", "app/(tabs)/bookmark.jsx", "app/(tabs)/home.jsx", "app/(tabs)/profile.jsx", "app/index.jsx", "app/_layout.jsx", "app/(auth)/sign-in.jsx", "app/(auth)/_layout.jsx", "app/search/[query].jsx", "app/(auth)/sign-up.jsx"]
 }
